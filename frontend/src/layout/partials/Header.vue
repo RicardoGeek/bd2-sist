@@ -40,9 +40,33 @@
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/reportes">
-                <i class="ti-clipboard menu-icon"></i>
-                <span class="menu-title">Reportes</span>
+              <router-link class="nav-link" to="/operaciones">
+                <i class="ti-check-box  menu-icon"></i>
+                <span class="menu-title">Operaciones</span>
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/balance-instituciones">
+                <i class=" ti-stats-up  menu-icon"></i>
+                <span class="menu-title">Balance De Instituciones</span>
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/cuentahabientes">
+                <i class="ti-user  menu-icon"></i>
+                <span class="menu-title">Cuentahabientes</span>
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/instituciones">
+                <i class=" ti-info  menu-icon"></i>
+                <span class="menu-title">Instituciones</span>
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/movimientos">
+                <i class="ti-bolt  menu-icon"></i>
+                <span class="menu-title">Movimientos</span>
               </router-link>
             </li>
           </ul>

@@ -23,13 +23,57 @@ export default new Router({
       ]
     },
     {
-      path: "/reportes",
+      path: "/operaciones",
       component: layout,
       children: [
         {
           path: "",
           name: "reportes",
-          component: () => import("@/pages/reportes")
+          component: () => import("@/pages/reportes/operaciones")
+        }
+      ]
+    },
+    {
+      path: "/balance-instituciones",
+      component: layout,
+      children: [
+        {
+          path: "",
+          name: "reportes",
+          component: () => import("@/pages/reportes/balance-instituciones")
+        }
+      ]
+    },
+    {
+      path: "/instituciones",
+      component: layout,
+      children: [
+        {
+          path: "",
+          name: "reportes",
+          component: () => import("@/pages/reportes/instituciones")
+        }
+      ]
+    },
+    {
+      path: "/cuentahabientes",
+      component: layout,
+      children: [
+        {
+          path: "",
+          name: "reportes",
+          component: () => import("@/pages/reportes/cuentahabientes")
+        }
+      ]
+    },
+    {
+      path: "/movimientos",
+      component: layout,
+      children: [
+        {
+          path: "",
+          name: "reportes",
+          component: () => import("@/pages/reportes/movimientos")
         }
       ]
     },
